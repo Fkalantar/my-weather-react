@@ -65,4 +65,7 @@
   .weather-forecast-temperatures {
     font-size: 13px;
   }
-  
+
+  .gitlink {
+    color:orange;
+  }

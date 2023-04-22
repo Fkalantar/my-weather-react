@@ -20,7 +20,7 @@ export default function WeatherApp() {
               type="search"
               placeholder="Type a city..."
               className="form-control"
-              autocomplete="off"
+              autoComplete="off"
             />
           </div>
           <div className="col-3">
@@ -45,7 +45,7 @@ export default function WeatherApp() {
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
               alt={weatherData.description}
-              class="float-left"
+              className="float-left"
             />
             <span className="float-left">
               <strong>{weatherData.temperature}</strong>
@@ -64,7 +64,7 @@ export default function WeatherApp() {
       </div>
     </div>
     <small
-  ><a
+  ><a className="gitlink"
     href="https://github.com/Fkalantar/My-vanilla-weather-app"
     target="_blank"  rel="noreferrer"
     >Open-source code</a
