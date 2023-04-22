@@ -65,7 +65,7 @@ export default function WeatherApp() {
     </div>
     <small
   ><a className="gitlink"
-    href="https://github.com/Fkalantar/My-vanilla-weather-app"
+    href="https://github.com/Fkalantar/my-weather-react"
     target="_blank"  rel="noreferrer"
     >Open-source code</a
   >, by Fataneh Kalantar</small
